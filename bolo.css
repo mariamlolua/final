@@ -1,0 +1,119 @@
+header{
+    width: 100%;
+    height:  170px;
+    background-color:#ffcc00;
+
+    
+}
+#logo{
+    width: 200px;
+    height: 100px;
+}
+h2{
+    display: inline-flex;
+    margin-right: 20px;
+}
+#search{
+    height: 30px;
+    left: 100px;
+    margin-left: 400px;
+    bottom:250px;
+    position: absolute;
+    z-index: 5;
+    width: 250px;
+    text-align: justify;
+}
+#track{
+    color: white;
+    background-color: red;
+    position: absolute;
+    z-index: 5; 
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid black;
+    left: 760px;
+    bottom:250px;
+}
+#background{
+    z-index: 2;
+    width: 100%;
+    position: relative;
+
+}
+h1{
+    font-size: 25px;
+    color: white;
+    left: 550px;
+    z-index: 5; 
+    position: absolute;
+    bottom:300px;
+
+}
+#dropdown{
+    background-color: #ffcc00;
+    color: white;
+    width: 140px;
+    display: none;
+    z-index: 8;
+    position: absolute;
+}
+
+.drop{
+    position: relative;
+    background-color: #ffcc00;
+    border: 1px none;
+font-size: 20px;
+
+}
+.option{
+    background-color: #ffcc00;
+    margin: 10px;
+}
+.option:hover{
+    background-color: rgb(224, 224, 65);
+}
+.drop:hover #dropdown{
+    display: block;
+}
+.threeblocks{
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(189, 185, 185);
+    border-radius: 5px;
+    background-color: rgb(241, 238, 238);
+    bottom: 35px;
+    left:150px;
+    top:5px;
+    display: inline-block;
+    text-align: center;
+    z-index: 5;
+    color: rgb(136, 4, 4);
+    padding: 10px;
+    position: relative;
+}
+.material-symbols-outlined{
+    color: red;
+
+}
+.blocks{
+    bottom: 80px;
+    position: relative;
+}
+.logist{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: rgb(241, 238, 238);
+}
+footer{
+    background-color: rgb(212, 208, 208);;
+    font-size: 30px;
+  color: rgb(71, 70, 70);
+  display: inline-flex;
+  padding-bottom: 200px;
+
+}
+#twentytwenty{
+    color: rgb(71, 70, 70);
+    text-align: center;
+    background-color: rgb(212, 208, 208);
+}
